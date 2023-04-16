@@ -1,0 +1,92 @@
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.leftSide {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.loginImage {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.rightSide {
+    width: 50%;
+    height: 100vh;
+}
+
+
+.formBox {
+    background-color: aquamarine;
+    width: 380px;
+    height: 530px;
+    position: relative;
+    margin: 4rem auto;
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 2rem;
+}
+
+.heading {
+    text-align: center;
+    font-family: cursive;
+    color: rgb(8, 186, 218);
+    margin-top: 3rem;
+}
+
+.inputForm {
+    top: 160px;
+    position: absolute;
+    width: 180px;
+    color: grey;
+}
+
+.inputField {
+    color: grey;
+    width: 300px;
+    padding: 1rem 0.5rem;
+    margin: 8px 35px;
+    border-radius: 0.7rem;
+    outline: none;
+    border: none;
+    background: azure;
+}
+
+.submitBtn {
+    border: none;
+    height: 2.5rem;
+    width: 8rem;
+    padding: 0.8rem 1.8rem;
+    font-weight: bolder;
+    border-radius: 2rem;
+    text-transform: uppercase;
+    box-shadow: 0 8px 6px -6px #000;
+    outline: none;
+    margin: 2rem 0 0 7.5rem;
+    background: rgb(134, 143, 226);
+    cursor: pointer;
+}
+
+.submitBtn:hover {
+    background: rgb(80, 96, 241);
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    z-index: 1;
+}
+
+.signupHeading {
+    margin: 19rem 0 0 5.8rem;
+    font-size: 1rem;
+    color: rgb(8, 186, 218);
+}
+
+.signupLink {
+    cursor: pointer;
+    text-decoration: none;
+}
