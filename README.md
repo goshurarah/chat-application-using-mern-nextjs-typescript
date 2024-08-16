@@ -1,5 +1,5 @@
 # chat-application-using-mern-nextjs-typescript
-Complete chat application using nextjs with typescript, expressjs, mongodb, nodejs, socket.io, complete authorization and authentictaion
+Complete chat application UI using nextjs with typescript, expressjs, mongodb, nodejs, complete authorization and authentictaion
 
 ## Available Scripts
 
